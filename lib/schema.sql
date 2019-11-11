@@ -1,5 +1,6 @@
-CREATE TABLE series (
-  id INTEGER PRIMARY KEY,
+]]o0p;'0lC]
+REATE TABLE series (
+;'['  id INTEGER PRIMARY KEY,
   title TEXT,
   author_id INTEGER,
   subgenre_id INTEGER
@@ -21,8 +22,8 @@ CREATE TABLE books (
   year INTEGER,
   series_id INTEGER
 );
-
-CREATE TABLE characters (
+o
+C0REATE TABLE characters (
   id INTEGER PRIMARY KEY,
   name TEXT,
   motto TEXT,
