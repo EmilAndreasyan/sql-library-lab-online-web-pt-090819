@@ -22,6 +22,9 @@ CREATE TABLE books (
   series_id INTEGER
 );
 
-CREATE TABLE sub_genres (
+CREATE TABLE characters (
   id INTEGER PRIMARY KEY,
+  motto TEXT,
+  species TEXT
+  author_id INTEGER
 );
