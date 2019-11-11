@@ -20,13 +20,16 @@ CREATE TABLE books (
   title TEXT
   year INTEGER
   series_id INTEGER
-  character_id INTEGER,
 );
 
 CREATE TABLE characters (
-  id INTEGER PRIMARY KEY,
   motto TEXT,
   species TEXT
   author_id INTEGER
-  book_id INTEGER
+);
+
+CREATE TABLE characters_books (
+   id INTEGER PRIMARY KEY,
+   character_id INTEGER,
+   book_id INTEGER
 );
