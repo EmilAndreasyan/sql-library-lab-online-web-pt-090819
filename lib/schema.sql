@@ -20,6 +20,7 @@ CREATE TABLE books (
   title TEXT
   year INTEGER
   series_id INTEGER
+  character_id INTEGER,
 );
 
 CREATE TABLE characters (
@@ -27,4 +28,5 @@ CREATE TABLE characters (
   motto TEXT,
   species TEXT
   author_id INTEGER
+  book_id INTEGER
 );
